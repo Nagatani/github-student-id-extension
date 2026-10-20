@@ -3,7 +3,6 @@
   "name": "GitHub Student ID & Group Inserter",
   "version": "1.0.0",
   "description": "GitHubの画面上に学籍番号・氏名・グループ名を表示し、演習講義等の管理を効率化します。",
-  "default_locale": "ja",
   "icons": {
     "16": "icons/icon16.png",
     "32": "icons/icon32.png",
