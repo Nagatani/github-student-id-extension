@@ -4,6 +4,9 @@
 
 PR、コミット履歴、Issue、Discussionsなどで「誰の提出物・作業か」を一目で識別できるようにします。
 
+![](https://nagatani.github.io/github-student-id-extension/docs/images/sc-githup-badge-02.png)
+
+
 ---
 
 ## 主な機能
@@ -25,6 +28,8 @@ PR、コミット履歴、Issue、Discussionsなどで「誰の提出物・作�
 ---
 
 ## 使い方・名簿の登録
+
+![](https://nagatani.github.io/github-student-id-extension/docs/images/sc-option-page-02.png)
 
 1. 拡張機能アイコンを右クリックし、**「オプション」** を開きます（または拡張機能一覧の「詳細」→「拡張機能のオプション」）。
 2. 名簿入力欄に、以下のいずれかの形式でデータを貼り付けて **「保存する」** をクリックします。
