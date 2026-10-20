@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Student ID & Group Inserter",
+  "version": "1.0.0",
+  "description": "GitHubの画面上に学籍番号・氏名・グループ名を表示し、演習講義等の管理を効率化します。",
+  "default_locale": "ja",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
